@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    margin: 50px auto 0px auto;
+    line-height: 1.5;
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    color:#B5CDA3;
+}
+h2{
+    margin:0;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 2.5rem;
+    color:#B5CDA3;
+}
+h3{
+    font-family: 'Arbutus Slab', serif;
+    font-size: 1.5rem;
+    color:#402218;
+}
+p{
+    margin:0;
+}
+hr{
+    border-style:none none dotted;
+    border-width:8px;
+    width: 5%;
+    color: #798777;
+    margin: 20px auto 20px auto
+}
+a{
+    color:#402218;
+    margin:10px;
+    text-decoration: none;
+}
+a:hover{
+    color:wheat
+}
+.top-container{
+    background-color:#FAEBE0;
+    position:relative;
+    padding-top:100px;
+}
+.middle-container{
+    background-color:#B5CDA3;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.bottom-container{
+    background-color:#FAEBE0;
+    padding: 20px;
+    margin:0;
+}
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 50px;
+}
+.mountain{
+    position:relative;
+}
+.html-image{
+    width:150px;
+    height:150px;
+    float: left;
+    margin-right: 30px;
+}
+.css-image{
+    width:150px;
+    height:150px;
+    float: right;
+    margin-left: 30px;
+}
+.profile-image{
+    height:200px;
+    width:200px;
+}
+.title-text{
+    color:#402218;
+    padding-top:10px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.skill-row2{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.contact{
+    background-color:#F4DFD0;
+    padding: 40px;
+}
+.footer{
+    background-color: #CDBBA7;
+    padding: 50px 0px 50px 0px;
+}
+.copyright{
+    margin-top: 50px;
+    font-size: 0.8rem;
+}
+.about-me{
+    margin: 20px auto 20px auto;
+}
+
+.btn {
+    margin-top:30px;
+    background: #B5CDA3;
+    background-image: -webkit-linear-gradient(top, #B5CDA3, #A2B29F);
+    background-image: -moz-linear-gradient(top, #B5CDA3, #A2B29F);
+    background-image: -ms-linear-gradient(top, #B5CDA3, #A2B29F);
+    background-image: -o-linear-gradient(top, #B5CDA3, #A2B29F);
+    background-image: -webkit-gradient(to bottom, #B5CDA3, #A2B29F);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 4px;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
